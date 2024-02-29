@@ -55,10 +55,10 @@ const filteredTodos = () => {
 
   const number = document.getElementById("userId").valueAsNumber
 
-  const filteredArray = arrayOfTodos.filter((arr) => arr.userId === number)
+  const filteredArr = arrayOfTodos.filter((arr) => arr.userId === number)
 
-  for (let index = 0; index < filteredArray.length; index++) {
-    const title = filteredArray[index].title;
+  for (let index = 0; index < filteredArr.length; index++) {
+    const title = filteredArr[index].title;
     
     const listItem = document.createElement("li");
 
